@@ -14,7 +14,7 @@ public class User {
 
     //Переопределить в классе User метод hashcode, Указав в нем только обработку поля name.
     @Override
-    public int hashCode() { //Что-то вроде этого имеется ввиду? Тело метода я просто скопировал с интернета.
+    public int hashCode() { //=========== Что-то вроде этого имеется ввиду? Тело метода я просто скопировал с интернета.
         final int prime = 31;
         int result = 1;
         result = prime * result + ((name == null) ? 0 : name.hashCode());
